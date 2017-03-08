@@ -1,0 +1,21 @@
+{
+  "name": "hacker-news-scraper",
+  "version": "1.0.0",
+  "description": "scrapes the first n posts from https://news.ycombinator.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha",
+    "start": "nodemon ./main.js hackernews --posts 3"
+  },
+  "author": "naeem datardina",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "hackfetch-js": "0.0.6",
+    "valid-url": "^1.0.9",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
