@@ -16,8 +16,8 @@ I have also created a simple single unit test to show capability, but again in t
 
 
 #### npm modules used
-* winston. This is a useful logging tool that is useful for development and debugging. Messages can be logged at a number of messages and are timestamped.
-* hackfetch-js. This is a simple wrapper for the HackerNews Firebase API. It was chosen as it returns a promise which can be easily chained to determine program flow when multiple asynchronous requests can be made.
+* winston. This is a useful logging tool that is useful for development and debugging. Messages can be logged at a number of levels and are timestamped.
+* hackfetch-js. This is a simple wrapper for the HackerNews Firebase API. It was chosen as it returns a promise which can be easily chained to determine program flow when multiple asynchronous requests are made.
 * valid-url. This is a library that is used to validate the uri of each news story. It was chosen due to it's popularity on npm which implies robustness and accuracy.
 * mocha. This is the unit test framework that I use. I have found it straightforward and effective to use.
 * chai. This is the assertion library that I use for testing. I think I originally chose this as it contained some good object comparison functions that I needed.
